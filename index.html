@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login page</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 form-container sign-up">
+                <form>
+                    <h1>Criar uma conta</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>ou usar o seu email para se registrar</span>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Senha">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Cadastre-se</button>
+                </form>
+            </div>
+            <div class="col-md-6 form-container sign-in">
+                <form>
+                    <h1>Entrar</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>ou usar o seu email e senha</span>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Senha">
+                    </div>
+                    <a href="#">Esqueceu sua senha?</a>
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6 toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Bem vindo de volta!</h1>
+                        <p>Entre com as suas informações pessoais para desfrutar do site!</p>
+                        <button class="btn btn-secondary hidden" id="login">Entrar</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Olá, seja bem vindo!</h1>
+                        <p>Cadastre-se com as suas informações pessoais para desfrutar do site!</p>
+                        <button class="btn btn-secondary hidden" id="register">Cadastre-se</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
